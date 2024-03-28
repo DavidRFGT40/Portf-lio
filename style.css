@@ -1,0 +1,174 @@
+
+* {
+    /* border: solid; */
+
+}
+
+@font-face {
+    font-family: Font1;
+    src: url(Fontes/Quattrocento-Regular.ttf);
+}
+
+@font-face {
+    font-family: Font2;
+    src: url(Fontes/Righteous-Regular.ttf);
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    z-index: 1;
+    color: white;
+    font-family: Font2;
+    font-size: 100px;
+}
+
+h2 {
+    z-index: 1;
+    color: grey;
+    text-align: center;
+    font-family: Font1;
+    font-size: 30px;
+}
+
+h3 {
+     z-index: 1;
+    /* margin-top: 10%; */
+    color: grey;
+    text-align: center;
+    font-family: Font1;
+    font-size: 30px;
+
+
+}
+
+p {
+
+    font-weight: 900;
+    font-family: Font1;
+    color: #bebebe;
+    font-size: 20px;
+
+}
+.container2{
+    margin-top: 7%;
+    margin-left: 27%;
+    position: absolute;
+    top: 0;
+}
+.container{
+    margin-left: 0%;
+     border: solid rgba(255, 18, 14, 0.833);
+}
+.img1  {
+    /* border: solid rgba(14, 255, 126, 0.833); */
+    height: 100px;
+    width: 100px !;
+    z-index: 0;
+     /* top: 5%; */
+    /* left: 0; */
+
+}
+.img1 img{
+    width: 24%;
+}
+
+.img2 img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+}
+
+.img3 img{
+    position: absolute;
+    width: 100px;
+    height: 15%;
+    top: 98%;
+    right: 45%;
+
+}
+
+.sobremim {
+    display: flex;
+    position: absolute;
+    top: 110%;
+    right: 33%;
+}
+
+
+
+.texto1 {
+    margin-left: 20%;
+    display: flexbox;
+    position: relative;
+    padding: 15px;
+    margin-top: 60%;
+    margin-right: 50%;
+    background-color: #00000031;
+    box-shadow: 2px 2px 2px #bebebe;
+}
+
+.minhaimagem img {
+    position: absolute;
+    left: 55%;
+    top: 146%;
+}
+
+
+.textconfig {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+.skills{
+    margin-left: 39%;
+}
+
+.softskills {
+    margin-right: 3%;
+    margin-left: 2%;
+
+}
+
+.hardskills {
+    margin-right: 2%;
+
+}
+
+footer{
+    font-family: Font1;
+    font-weight: 600;
+    margin-left: 44%;
+    color: rgb(189, 0, 0);
+}
+
+@media all and (max-width:860px) {
+    .container{
+        width: 140%;
+        margin-top: 40%;
+    }
+
+    .img2 img{
+        width: 40%;
+    }
+
+    .img3 img{
+        left: 40%;
+        top: 70%;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .container2{
+        margin-left: 13%;
+    }
+
+}
+
